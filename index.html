@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ultimate Minecraft 1.12.2 Modpack</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="loading" id="loading">
+    <div class="spinner"></div>
+  </div>
+
+  <div class="container">
+    <header>
+      <h1>Ultimate Survival Modpack</h1>
+      <p class="subtitle">Minecraft 1.12.2 | 47+ Mods | Forge Required</p>
+    </header>
+    
+    <div class="download-hero fade-in">
+      <h2 style="color: white; margin-bottom: 1rem;">Download Full Modpack</h2>
+      <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Semua mod sudah dikonfigurasi dan siap pakai dalam satu klik!</p>
+      <a href="https://sfl.gl/wZ99mg" class="btn btn-download" onclick="showLoading()">
+        📥 Download Modpack (78MB)
+      </a>
+      <p style="margin-top: 15px; font-size: 0.9rem; color: rgba(255,255,255,0.8);">
+        Versi 1.0 | Terakhir update: 20 Juni 2023
+      </p>
+    </div>
+    
+    <div class="alert fade-in">
+      <strong>⚠ Perhatian:</strong> Pastikan sudah menginstall Minecraft Forge 1.12.2 sebelum menggunakan modpack ini.
+    </div>
+    
+    <div class="alert alert-danger fade-in">
+      <strong>❗ Penting:</strong> Mod bertanda <span class="mod-tag">LIBRARY</span> wajib diinstall agar mod lain bekerja!
+    </div>
+
+    <!-- Gameplay Mods Section -->
+    <div class="mod-section fade-in">
+      <h3 class="section-title">🎮 Gameplay Utama</h3>
+      <div class="mod-grid">
+        <div class="mod-card">
+          <div class="mod-name">Apotheosis</div>
+          <div class="mod-desc">Sistem RPG dengan enchantment yang diperluas dan dungeon baru</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/apotheosis/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/apotheosis" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Biomes O' Plenty</div>
+          <div class="mod-desc">Menambahkan 80+ biome baru dengan vegetasi unik</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Tough As Nails</div>
+          <div class="mod-desc">Sistem survival baru dengan suhu tubuh dan kebutuhan air</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/tough-as-nails/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/tough-as-nails" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">First Aid</div>
+          <div class="mod-desc">Sistem kesehatan bagian tubuh yang realistis</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/first-aid/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/first-aid" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Zombie Awareness</div>
+          <div class="mod-desc">Zombie sekarang bisa mencium darah dan mengejar dari jarak jauh</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/zombie-awareness/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/zombie-awareness" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Scaling Health</div>
+          <div class="mod-desc">Sistem kesehatan yang berkembang seiring permainan</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/scaling-health/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/scaling-health" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Bloodmoon</div>
+          <div class="mod-desc">Event bulan darah dimana mob menjadi lebih agresif</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/bloodmoon/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/bloodmoon" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">In Control!</div>
+          <div class="mod-desc">Kontrol spawn mob dan aturan spawn yang lebih detail</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/in-control/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/in-control" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Mob Sunscreen</div>
+          <div class="mod-desc">Mencegah mob terbakar di siang hari jika diinginkan</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/mob-sunscreen/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/mob-sunscreen" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Starter Kit</div>
+          <div class="mod-desc">Memberikan kit awal kepada pemain baru</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/starter-kit/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/starter-kit" class="mod-link">Info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Equipment & Combat Section -->
+    <div class="mod-section fade-in">
+      <h3 class="section-title">⚔️ Senjata & Perlengkapan</h3>
+      <div class="mod-grid">
+        <div class="mod-card">
+          <div class="mod-name">Spartan Weaponry</div>
+          <div class="mod-desc">Senjata medieval dengan material berbeda dan kemampuan unik</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/spartan-weaponry/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/spartan-weaponry" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Spartan Shields</div>
+          <div class="mod-desc">Perisai dengan berbagai material dan efek khusus</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/spartan-shields/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/spartan-shields" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">SpartanBM</div>
+          <div class="mod-desc">Armor set dengan kemampuan khusus</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/spartanbm/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/spartanbm" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Better Combat Rebirth</div>
+          <div class="mod-desc">Sistem pertarungan yang lebih dinamis dan memuaskan</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/better-combat-rebirth/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/better-combat-rebirth" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Baubles</div>
+          <div class="mod-desc">Slot equipment tambahan untuk aksesoris</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/baubles/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/baubles" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Thut Wearables</div>
+          <div class="mod-desc">Kostum dan aksesoris karakter yang bisa dipakai</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/thut-wearables/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/thut-wearables" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Traveler's Backpack</div>
+          <div class="mod-desc">Backpack dengan inventory besar dan fitur khusus</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/travelers-backpack/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/travelers-backpack" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Spartan HUD Baubles</div>
+          <div class="mod-desc">Tampilan HUD untuk aksesoris Baubles</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/spartan-hud-baubles/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/spartan-hud-baubles" class="mod-link">Info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quality of Life Section -->
+    <div class="mod-section fade-in">
+      <h3 class="section-title">✨ Quality of Life</h3>
+      <div class="mod-grid">
+        <div class="mod-card">
+          <div class="mod-name">JEI</div>
+          <div class="mod-desc">Just Enough Items - Sistem resep dan tampilan item yang lebih baik</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/jei/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/jei" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Inventory Tweaks</div>
+          <div class="mod-desc">Menyortir dan mengatur inventory secara otomatis</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Xaero's Minimap</div>
+          <div class="mod-desc">Minimap yang berguna untuk navigasi dunia</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">AppleSkin</div>
+          <div class="mod-desc">Menampilkan informasi nilai gizi makanan secara detail</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/appleskin/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/appleskin" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">InventoryHUD+</div>
+          <div class="mod-desc">Menampilkan inventory secara permanen di layar</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Mouse Tweaks</div>
+          <div class="mod-desc">Peningkatan kontrol mouse untuk inventory management</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">OptiFine</div>
+          <div class="mod-desc">Optimasi performa dan dukungan shader</div>
+          <div class="mod-links">
+            <a href="https://www.optifine.net/downloads" class="mod-link">Download</a>
+            <a href="https://www.optifine.net/home" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Sound Filters</div>
+          <div class="mod-desc">Efek suara yang lebih realistis dengan reverb dan filter</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/sound-filters/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/sound-filters" class="mod-link">Info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- World Generation Section -->
+    <div class="mod-section fade-in">
+      <h3 class="section-title">🌍 Dunia & Generasi</h3>
+      <div class="mod-grid">
+        <div class="mod-card">
+          <div class="mod-name">Base Metals</div>
+          <div class="mod-desc">Sistem metalurgi dengan bijih dan logam baru</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/base-metals/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/base-metals" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Waystones</div>
+          <div class="mod-desc">Sistem fast travel dengan batu waypoint</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/waystones/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/waystones" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Future MC</div>
+          <div class="mod-desc">Fitur dari versi Minecraft baru yang di-port ke 1.12.2</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/future-mc/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/future-mc" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Nature's Compass</div>
+          <div class="mod-desc">Alat untuk mencari biome spesifik di dunia</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/natures-compass/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/natures-compass" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">OreSpawn</div>
+          <div class="mod-desc">Menambahkan banyak mob, dimensi, dan sistem ore baru</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/orespawn/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/orespawn" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Simple Flax</div>
+          <div class="mod-desc">Menambahkan tanaman flax untuk membuat benang</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/simple-flax/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/simple-flax" class="mod-link">Info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Building & Tools Section -->
+    <div class="mod-section fade-in">
+      <h3 class="section-title">🛠️ Bangunan & Alat</h3>
+      <div class="mod-grid">
+        <div class="mod-card">
+          <div class="mod-name">Better Builder's Wands</div>
+          <div class="mod-desc">Alat untuk membangun struktur besar dengan cepat</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/better-builders-wands/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/better-builders-wands" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Falling Tree</div>
+          <div class="mod-desc">Pohon tumbang seluruhnya saat ditebang</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/falling-tree/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/falling-tree" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">VeinMiner</div>
+          <div class="mod-desc">Menambang seluruh vein ore dengan satu klik</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/veinminer/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/veinminer" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Macaw's Doors</div>
+          <div class="mod-desc">Pintu dengan berbagai desain dan material</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/macaws-doors/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/macaws-doors" class="mod-link">Info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Libraries Section -->
+    <div class="mod-section fade-in">
+      <h3 class="section-title">📚 Libraries (Wajib)</h3>
+      <div class="mod-grid">
+        <div class="mod-card">
+          <div class="mod-name">Forgelin <span class="mod-tag">LIBRARY</span></div>
+          <div class="mod-desc">Library dasar yang diperlukan oleh beberapa mod</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/forgelin/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/forgelin" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Placebo <span class="mod-tag">LIBRARY</span></div>
+          <div class="mod-desc">Library utilitas untuk mod Minecraft</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/placebo/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/placebo" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">OreLib <span class="mod-tag">LIBRARY</span></div>
+          <div class="mod-desc">Library untuk sistem ore generation</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/orelib/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/orelib" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Silent Lib <span class="mod-tag">LIBRARY</span></div>
+          <div class="mod-desc">Library umum untuk mod Silent</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/silent-lib/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/silent-lib" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">Collective <span class="mod-tag">LIBRARY</span></div>
+          <div class="mod-desc">Library untuk fitur-fitur umum</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/collective/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/collective" class="mod-link">Info</a>
+          </div>
+        </div>
+        
+        <div class="mod-card">
+          <div class="mod-name">CoroUtil <span class="mod-tag">LIBRARY</span></div>
+          <div class="mod-desc">Library utilitas untuk Corosus</div>
+          <div class="mod-links">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/coroutil/download" class="mod-link">Download</a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/coroutil" class="mod-link">Info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2023 Ultimate Minecraft Modpack | Dibuat dengan ❤️ untuk komunitas Minecraft</p>
+      <p>Semua mod adalah hak cipta masing-masing pembuatnya</p>
+      <p>webhost: github pages</p>
+      <p>uploader: ShinProject</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
